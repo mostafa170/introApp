@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -40,6 +41,7 @@ public class RecyclerViewListActivity extends AppCompatActivity {
             @Override
             public void onItemClick(int pos, ContactModel contactModel) {
                 Toast.makeText(RecyclerViewListActivity.this, contactModel.name, Toast.LENGTH_SHORT).show();
+                Log.e("TAG", "onItemClick: "+contactModel.name );
 
             }
         });
