@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">introApp</string>
+    <string name="alamat_com">alamat comjgflglkglfkfddfdd</string>
+    <string name="direct_contact">Direct contact</string>
+    <string name="adress_location">Address location</string>
+    <string name="no_13_amad_orabi_st_jeddah">No. 13 Amad orabi st, jeddah</string>
+    <string name="open_on_map">Open on map</string>
+    <string name="phone_number">Phone number</string>
+    <string name="_966_2031_2054_445">+966 2031 2054 445</string>
+    <string name="label_work_times">Work times</string>
+    <string name="_9_00_am_6_00_pm">9:00 am - 6:00 pm</string>
+    <string name="hint_9_00_am_6_00_pm">9:00 am - 6:00 pm</string>
+    <string name="title_activity_bottom_nav">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_login">دخول</string>
+    <string name="label_reg">تسجيل</string>
+
+
+</resources>
