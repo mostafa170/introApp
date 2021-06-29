@@ -65,5 +65,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_tabLayout" />
 
+
+        <Button
+            android:id="@+id/btn_mapLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="map Location"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_recyclerView" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
