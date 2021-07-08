@@ -12,6 +12,7 @@ import com.alamat.introapp.bottomNav.BottomNavActivity;
 import com.alamat.introapp.databinding.ActivitySplashBinding;
 import com.alamat.introapp.layoutAndLifeCycle.MainActivity;
 import com.alamat.introapp.mapLocation.MapLocationActivity;
+import com.alamat.introapp.radio.RadioActivity;
 import com.alamat.introapp.recyclerView.RecyclerViewListActivity;
 import com.alamat.introapp.sendAndGetData.FirstActivity;
 import com.alamat.introapp.tabLayout.TabLayoutActivity;
@@ -79,6 +80,14 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SplashActivity.this , NewsSourcesActivity.class );
+                startActivity(intent);
+            }
+        });
+
+        binding.btnRadio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SplashActivity.this , RadioActivity.class );
                 startActivity(intent);
             }
         });
