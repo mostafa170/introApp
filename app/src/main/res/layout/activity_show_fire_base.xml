@@ -14,7 +14,7 @@
 
         <include
             android:id="@+id/include"
-            layout="@layout/content_insert_fire_base" />
+            layout="@layout/content_show_fire_base" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"

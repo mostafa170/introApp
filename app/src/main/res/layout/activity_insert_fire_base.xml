@@ -12,5 +12,60 @@
         android:layout_height="match_parent"
         tools:context=".fireBase.InsertFireBaseActivity">
 
+        <EditText
+            android:id="@+id/ed_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="user name"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ed_userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="user password"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_userName" />
+
+        <EditText
+            android:id="@+id/ed_userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="user emails"
+            android:layout_margin="10dp"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_userPassword" />
+
+        <EditText
+            android:id="@+id/ed_userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="user phone"
+            android:layout_margin="10dp"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_userEmail" />
+
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Save"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ed_userPhone" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

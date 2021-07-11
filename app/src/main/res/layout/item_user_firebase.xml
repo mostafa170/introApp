@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tv_userNameTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User name = "
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tv_userNameData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_userNameTxt"
+                app:layout_constraintStart_toEndOf="@+id/tv_userNameTxt"
+                app:layout_constraintTop_toTopOf="@+id/tv_userNameTxt" />
+
+
+            <TextView
+                android:id="@+id/tv_userEmailTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User email = "
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_userNameTxt" />
+
+
+            <TextView
+                android:id="@+id/tv_userEmailData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_userEmailTxt"
+                app:layout_constraintStart_toEndOf="@+id/tv_userEmailTxt"
+                app:layout_constraintTop_toTopOf="@+id/tv_userEmailTxt" />
+
+            <TextView
+                android:id="@+id/tv_userPasswordTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User password = "
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_userEmailTxt" />
+
+
+            <TextView
+                android:id="@+id/tv_userPasswordData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_userPasswordTxt"
+                app:layout_constraintStart_toEndOf="@+id/tv_userPasswordTxt"
+                app:layout_constraintTop_toTopOf="@+id/tv_userPasswordTxt" />
+
+
+            <TextView
+                android:id="@+id/tv_userPhoneTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="User phone = "
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_userPasswordTxt" />
+
+
+            <TextView
+                android:id="@+id/tv_userPhoneData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_userPhoneTxt"
+                app:layout_constraintStart_toEndOf="@+id/tv_userPhoneTxt"
+                app:layout_constraintTop_toTopOf="@+id/tv_userPhoneTxt" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</layout>
