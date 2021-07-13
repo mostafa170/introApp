@@ -15,6 +15,7 @@ import com.alamat.alamattrainingapp.layoutAndLifeCycle.MainActivity;
 import com.alamat.alamattrainingapp.mapLocation.MapLocationActivity;
 import com.alamat.alamattrainingapp.radio.RadioActivity;
 import com.alamat.alamattrainingapp.recyclerView.RecyclerViewListActivity;
+import com.alamat.alamattrainingapp.roomDatabase.GetRoomDatabaseActivity;
 import com.alamat.alamattrainingapp.sendAndGetData.FirstActivity;
 import com.alamat.alamattrainingapp.tabLayout.TabLayoutActivity;
 
@@ -97,6 +98,14 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SplashActivity.this , ShowFireBaseActivity.class );
+                startActivity(intent);
+            }
+        });
+
+        binding.btnRoom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SplashActivity.this , GetRoomDatabaseActivity.class );
                 startActivity(intent);
             }
         });

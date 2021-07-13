@@ -14,7 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntroApp"
         android:usesCleartextTraffic="true">
-        <activity android:name=".fireBase.InsertFireBaseActivity"></activity>
+        <activity android:name=".roomDatabase.SaveRoomDatabaseActivity"></activity>
+        <activity android:name=".roomDatabase.GetRoomDatabaseActivity" />
+        <activity android:name=".fireBase.InsertFireBaseActivity" />
         <activity
             android:name=".fireBase.ShowFireBaseActivity"
             android:label="@string/title_activity_insert_fire_base"
